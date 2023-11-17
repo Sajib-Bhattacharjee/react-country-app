@@ -1,5 +1,5 @@
 .country {
-  background-color: #34495e;
+  background-color: darkslategray;
   color: white;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
   transition: all 0.3s;
 }
 .country:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 .flag {
@@ -20,13 +20,18 @@
 .btn {
   border: none;
   border-radius: 0.6rem;
-  padding: 0.6rem;
+  font-weight: bolder;
+  padding: 0.8rem;
   cursor: pointer;
-  background-color: orange;
+  background-color: purple;
+  font-size: 1rem;
+  color: white;
   transition: all 0.3s;
 }
 
 .btn:hover {
-  background-color: red;
+  background-color: black;
   color: white;
+  box-shadow: 3px 3px;
 }
+
